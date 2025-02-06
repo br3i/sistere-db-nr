@@ -1,0 +1,43 @@
+API_KEY_RUNPOD=rpa_RRUKU1DOX1JSLHZWPETRO10OJ9BR4AYVVZY1CK1Ppiappu
+NOMBRE_ASISTENTE = "Sistere"
+AREA_ASISTENCIA = "Departamento de Secretaría general y Documentación de la Escuela Superior Politécnica de Chimborazo (ESPOCH)"
+MAX_HISTORY_SIZE = 3
+SESSION_LIMIT = 15
+INTERACTION_LIMIT = 5
+INACTIVITY_LIMIT = 5
+
+EMAIL_ADMINISTRADOR = "bryan.a.r.g.98@gmail.com"
+USERNAME_ADMINISTRADOR = "brei"
+NOMBRE_ADMINISTRADOR = "Bryan"
+APELLIDO_ADMINISTRADOR = "Reinoso"
+CONTRASENA_ADMINISTRADOR = "123ABCabc@"
+ROLES_ADMINISTRADOR = ["admin", "user", "viewer"]
+
+TIME_ZONE = "America/Guayaquil"
+
+NO_RELATIONAL_DATABASE_PATH="./db_nr"
+
+MODEL_OLLAMA="deepseek-r1:32b"
+MODEL_EMBEDDING="bge-m3"      
+
+OLLAMA_URL="http://localhost:11434/"
+CHROMA_URL="http://localhost:8000/"
+CHUNK_SIZE = 1100
+CHUNK_OVERLAP = 230
+
+RESET_DB=false
+DB_HOST=aws-0-sa-east-1.pooler.supabase.com
+DB_PORT=6543
+DB_USER=postgres.knlnljazcljnjjpqbpfk
+DB_NAME=postgres
+DB_PASSWORD=11Bf734c8m5LXXuh
+POOL_MODE=transaction
+
+SUPABASE_URL=https://knlnljazcljnjjpqbpfk.supabase.co
+SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtubG5samF6Y2xqbmpqcHFicGZrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNzg0NTUwNiwiZXhwIjoyMDUzNDIxNTA2fQ.dzvCQkh1QpDKyO8Dje2SAE7k2A58N3aHZ1YXutzn6YU
+BUCKER_DOCUMENTS=documents
+
+SECRET_KEY=Clave-SECRETA-Sistere
+SESSION_KEY=OtraClave-SECRETA-Sistere
+ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=120
