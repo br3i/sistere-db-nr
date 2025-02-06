@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#chmod +x init.sh
+
 # Instalando dependencias necesarias
 echo "📦 Instalando dependencias necesarias..."
 apt update && apt install -y pciutils lshw
