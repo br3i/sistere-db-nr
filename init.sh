@@ -1,3 +1,5 @@
+/bin/bash -c "cd /workspace && ./init.sh"
+
 #!/bin/bash
 
 #chmod +x init.sh
@@ -52,4 +54,10 @@ sleep 10
 # Iniciando el backend con Uvicorn
 echo "🌍 Iniciando el backend con Uvicorn..."
 cd /workspace/sistere-backend
+
+# Activar entorno virtual
+echo "🐍 Activando entorno virtual..."
+source venv/bin/activate 
+
+# Ejecutar Uvicorn
 uvicorn app-fa:app --host 0.0.0.0 --port 8000 --reload
