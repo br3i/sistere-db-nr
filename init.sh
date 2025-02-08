@@ -40,7 +40,7 @@ download_model() {
 
 # Descargar los modelos necesarios
 download_model "gemma2:27b"
-download_model "llama3.3"
+download_model "mixtral:8x7b"
 download_model "deepseek-r1:32b"
 download_model "granite3.1-dense"
 download_model "granite3.1-moe:3b"
